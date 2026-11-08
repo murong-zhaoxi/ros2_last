@@ -1,0 +1,8 @@
+build/
+install/
+log/
+__pycache__/
+*.py[cod]
+tools/.pytest_cache/
+src/line_follower_perception/models/*_retrained.pth
+src/line_follower_perception/models/*_retrained.onnx

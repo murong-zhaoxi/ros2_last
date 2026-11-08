@@ -1,0 +1,9 @@
+lanedetection:
+  ros__parameters:
+    base_speed: 0.2
+    min_speed: 0.05
+    kp_angular: 0.003
+    max_angular: 0.8
+    turn_max_ang: 0.6
+    turn_max_duration: 6.0
+    max_point_age: 0.5

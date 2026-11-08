@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>line_follower_perception</name>
+  <version>0.1.0</version>
+  <description>ResNet18 line-center inference using Horizon dnn_node on Originbot RDK X5.</description>
+  <maintainer email="originbot03@example.com">Originbot03</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>dnn_node</depend>
+  <depend>hbm_img_msgs</depend>
+  <depend>hobot_cv</depend>
+  <depend>libopencv-dev</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
